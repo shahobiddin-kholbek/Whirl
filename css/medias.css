@@ -1,0 +1,428 @@
+@media screen and (max-width: 415px) {
+   /* top_site */
+   .top_site {
+      display: none;
+   }
+
+   /* navbar */
+   .navbar {
+      width: 100%;
+      padding: 0;
+      display: inline;
+   }
+
+   .parent {
+      background-color: #CCE5F3;
+   }
+
+   .main_padding {
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+
+   .sign_in_book_memo {
+      flex-direction: column;
+   }
+   .sign_in{
+      width: 90px;
+   }
+   .bi-x-circle{
+      margin-left: -12%;
+      margin-top: -5%;
+   }
+
+   /* section_your_everyday */
+   .section_your_everyday_in_text {
+      text-align: center;
+
+   }
+
+   .your_everyday {
+      font-size: 25px;
+      display: inline;
+      line-height: 25px;
+      width: 100%;
+
+   }
+
+   .book_learn_main {
+      justify-content: center;
+   }
+
+   .book_learn_main {
+      display: flex;
+      align-items: center;
+   }
+
+
+   .photoYour_everyday img {
+      max-width: 100%;
+      height: auto;
+   }
+
+   .photoYour_everyday {
+      margin-top: 4%;
+      order: -1;
+   }
+
+   /* section_trusted */
+
+   .section_trusted {
+      margin-top: 45%;
+   }
+
+   .empty_col {
+      display: none;
+   }
+
+   /* section_cards_fast_bang_safe */
+
+   .section_cards_fast_bang_safe {
+      margin-top: 13%;
+      text-align: center;
+   }
+
+   .fast_bang_safe {
+      margin-bottom: 4%;
+   }
+
+   /* section_we_will */
+
+   .we_will_text {
+      font-size: 24px;
+      text-align: center;
+   }
+
+   .accordion {
+      padding-left: 0%;
+      width: 380px;
+   }
+
+   .we_will_img img {
+      max-width: 100%;
+      height: auto;
+
+   }
+
+/* section_whats_whirl */
+
+   .whirl_about {
+      margin: 0 0 0 10%;
+      font-size: 28px;
+      width: auto;
+   }
+
+   .empty_place {
+      display: none;
+   }
+
+   .whats_whirl_col {
+      margin: 0 25% 0 19%;
+      
+   }
+   .whats_whirl_col a svg{
+      margin-left: 35%;
+   }
+   .head_text{
+      text-align: center;
+   }
+   .under_head_text{
+      text-align: center;
+   }
+
+   .all_get_safe{
+      width: auto;
+   }
+
+/* section_set_forget */
+
+   .set_forget_img img {
+      max-width: 100%;
+      height: auto;
+   }
+
+   .set_forg_head_text {
+      font-size: 30px;
+      display: inline;
+   }
+
+   .un_head_text {
+      width: auto;
+      text-align: center;
+   }
+   .check_flex {
+      margin-left: 15%;
+      width: auto;
+      
+   }
+   .book_a_demo{
+      margin-left: 27%;
+
+   }
+   .set_forget_col {
+      margin-top: 5%;
+   }
+
+/* section_your_tasks */
+
+   .head_text_your_tasks {
+      font-size: 32px;
+      width: auto;
+      display: inline;
+   
+   }
+   .under_head_text_your_tasks {
+      width: auto;
+      text-align: center;
+   }
+
+   .your_tasks_row .col{
+      margin: 0 25% 0 17%;
+   }
+
+   .learn_your_options {
+      margin-bottom: 8%;
+   }
+
+   .head_text_learn_stay_automate_stay {
+      text-align: center;
+      margin-left: 3%;
+
+   }
+   .under_head_text_learn_stay_automate_stay p{
+      text-align: center;
+   }
+   .learn_your_options svg{
+      margin-left: 30%;
+
+   }
+
+   .sizes_learn_stay_automate_stay img{
+      margin-left: 30%;
+
+   }
+
+/* section_get_smarter */
+
+   .section_get_smarter {
+      margin-top: 150%;
+   }
+
+   .get_smarter_text {
+      flex-direction: column;
+      line-height: 0px;
+   }
+
+   .get_smarter_text p {
+      text-align: center;
+      font-size: 26px;
+      height: auto;
+      width: auto;
+
+   }
+
+   .cardsCenter {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 3%;
+   }
+
+/* section_get_started */
+
+   .head_text_get_started {
+      text-align: center;
+      width: auto;
+      font-size: 30px;
+   }
+
+   .under_head_text_get_started,
+   .under_head_text_get_started p {
+      text-align: center;
+      width: auto;
+      margin-bottom: 4%;
+   }
+
+   .book_a_demo_get_started{
+      margin-left: 25%;
+   }
+
+   .free_trial{
+      margin-left: 2.5%;
+   }
+
+/* section_build_by */
+
+   .build_by_in{
+     
+      text-align: center;
+
+   }
+   .nikolai_bain{
+      width: auto;
+   }
+   .build_by_center_media{
+      width: 190px;
+      margin-top: 5%;
+   }
+
+   .hr_sizes {
+      margin-top: 15%;
+   }
+
+   .streamline {
+      margin-top: 5%;
+      margin-bottom: 7%;
+   }
+
+   
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 768px) {
+   
+   .parent {
+      background-color: #CCE5F3;
+      margin-top: -2.4%;
+   }
+   .section_your_everyday{
+      margin-bottom: 1%;
+      height: auto;
+   }
+
+   .photoYour_everyday img {
+      width: 355px; 
+      height: 360px;
+   }
+
+   .your_everyday{
+      font-size: 35px;
+      line-height: 35px;
+      height: 80px;
+   }
+
+   .your_everyday_learn_more{
+      margin-top: 3%;
+      margin-left: 8%;
+   }
+
+   .empty_col{
+      display: none;
+   }
+
+   .fast_bang_safe{
+      margin-bottom: 3.5%;
+   }
+
+   .section_we_will{
+      padding-top: 0%;
+   }
+
+   .accordion-flush{
+      width: auto;
+   }
+
+   .we_will_img{
+      margin-left: 9%;
+      margin-top: -15%;
+   }
+
+   .section_whats_whirl{
+      margin-left: 6%;
+   }
+
+   .whirl_about, p{
+      width: auto;
+   }
+
+   .all_get_safe{
+      width: 49%;
+      
+   }
+
+   .set_forget_img, img{
+      margin-left: 7%;
+   }
+
+   .set_forget_col{
+      padding-left: 15%;
+      
+   }
+
+   .your_tasks_row{
+      margin-bottom: 16%;
+      margin-left: 3%;
+   }
+
+   .under_head_text_your_tasks{
+      width: auto;
+   }
+
+   .sizes_learn_stay_automate_stay{
+      margin-bottom: 10%;
+      
+   }
+
+   .section_get_smarter{
+      margin-top: 19%;
+   }
+   
+   .cards_get_smarter{
+      margin-top: 17%;
+      padding-left: 20%;
+   }
+
+   .cardsCenter{
+      margin-bottom: 3%;
+      width: auto;
+   }
+
+   .cardsCenter, img{
+      margin-left: -0.1%;
+   }
+
+   .automating_can_our{
+      width: auto;
+   }
+
+   .section_build_by{
+      padding-left: 17%;
+   }
+
+   .build_by_center_media{
+      width: 150px;
+   }
+
+}
+
+
+@media screen and (max-width: 699px) {
+   .empty_col{
+      display: none;
+   }
+}
+
+@media screen and (max-width: 992px) {
+   .your_tasks_row{
+      margin-bottom: 10%;
+   }
+}
+
+@media screen and (max-width: 1349px) {
+   .section_your_tasks{
+      margin-bottom: 10%;
+   }
+}
+
+
+
+@media screen and (max-width: 1245px) {
+   .section_whats_whirl .empty_col{
+      display: none;
+   }
+}
+
+@media screen and (max-width: 1319px) {
+   .col-lg-5{
+      width: auto;
+   }
+}

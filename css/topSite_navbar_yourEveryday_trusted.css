@@ -1,0 +1,316 @@
+.container-fluid {
+   width: 100%;
+}
+
+
+@font-face {
+   font-family: 'Inter';
+   src: url(../fonts/Inter/Inter-V.ttf);
+   font-style: normal;
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: 'Fraunces';
+   src: url(../fonts/Fraunces/Fraunces.ttf);
+   font-style: normal;
+   font-weight: 400;
+}
+
+.main_padding {
+   padding-left: 10%;
+   padding-right: 10%;
+
+}
+
+/* top_site */
+
+.top_site {
+   height: 43px;
+   background: var(--blue-color);
+   align-items: center;
+   margin-bottom: 1%;
+}
+
+.top_site_in {
+   height: 43px;
+   line-height: 42px;
+   gap: 15px;
+}
+
+.text-content p{
+   display: inline;
+   font-family: 'Inter';
+   font-size: 14px;
+  
+}
+
+.text-content2 {
+   width: 140px;
+   color: #CCE5F3;
+   text-decoration: none;
+}
+
+.text-content2:hover {
+   text-decoration: underline;
+   color: white;
+}
+
+/* navbar */
+
+.navbar {
+   height: 45px;
+   margin-bottom: 7%;
+}
+
+.navbar-nav li {
+   margin-left: 15px;
+   font-family: 'inter';
+
+}
+
+.nav-link {
+   color: black;
+}
+
+.nav-link:hover {
+   color: var(--blue-color);
+   font-weight: bolder;
+}
+
+.un_line {
+   position: relative;
+}
+
+.un_line::before {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 0;
+   height: 2px;
+   background-color: #0074D9;
+   transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+   .un_line:hover::before {
+      left: 0;
+      right: auto;
+      width: 100%;
+   }
+}
+
+:root {
+   --blue-color: #0070A0;
+   --sizeindex: calc(1vw+1vh)
+}
+
+.sign_in {
+   height: auto;
+   width: auto;
+   color: var(--blue-color);
+   border-radius: 0;
+   font-family: 'Inter';
+}
+
+
+.sign_in:hover {
+   color: blue;
+   border: 1px solid #0070A0;
+   font-weight: bolder;
+   background-color: #CCE5F3;
+
+}
+
+.terms_privacy{
+   opacity: 70%;
+}
+
+.terms_privacy:hover{
+   opacity: 100%;
+}
+
+.book_demo {
+   color: white;
+   border: none;
+   border-radius: 0px;
+   width: auto;
+   height: 36px;
+   width: 140px;
+   padding: 1%;
+   background-color: var(--blue-color);
+   font-family: 'Inter';
+}
+
+.book_demo:hover {
+   opacity: 90%;
+   color: blue;
+   border: 2px solid blue;
+   font-weight: bolder;
+}
+
+/* section your everyday */
+
+.section_your_everyday {
+   height: 450px;
+   width: 100%;
+   margin-bottom: 6%;
+
+}
+
+.section_your_everyday_in {
+   height: 433.58px;
+}
+
+.section_your_everyday_in_text {
+   height: 90%;
+   padding-top: 3.5%;
+}
+
+
+.your_everyday {
+   height: 128px;
+   width: 450px;
+   line-height: 64px;
+   font-family: 'Fraunces';
+   font-size: 53px;
+   color: #1F1F1F;
+}
+.photoYour_everyday{
+   text-align: end;
+}
+.photoYour_everyday img {
+   width: 440px; 
+   height: 410px;
+}
+
+.whirl_lets {
+   height: 90px;
+   width: 360px;
+}
+
+.whirl_lets_text {
+   height: 90px;
+   width: 351px;
+   font-family: 'inter';
+   font-size: 17px;
+}
+
+.book_learn_main {
+   margin-top: 10px;
+
+}
+
+.your_everyday_btn {
+   height: 43px;
+   width: 174px;
+   border-radius: 0px;
+   margin-right: 3%;
+}
+
+.your_everyday_book_demo {
+   position: relative;
+   height: 43px;
+   width: 160px;
+}
+.your_everyday_book_demo:before {
+   content: '';
+   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+   position: absolute;
+   top: -2px;
+   left:-2px;
+   background-size: 400%;
+   z-index: -1;
+   filter: blur(5px);
+   width: calc(100% + 4px);
+   height: calc(100% + 4px);
+   animation: glowing 20s linear infinite;
+   opacity: 0;
+   transition: opacity .3s ease-in-out;
+}
+
+.your_everyday_book_demo:active:after {
+   background: transparent;
+}
+
+.your_everyday_book_demo:hover:before {
+   opacity: 1;
+}
+
+.your_everyday_book_demo:after {
+   z-index: -1;
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+}
+
+@keyframes glowing {
+   0% { background-position: 0 0; }
+   50% { background-position: 400% 0; }
+   100% { background-position: 0 0; }
+}
+
+
+
+.your_everyday_learn_more {
+   height: 43px;
+   width: 150px;
+   border-radius: 0px;
+   line-height: 40px;
+}
+
+.your_everyday_learn_more a {
+   text-decoration: none;
+   font-family: 'inter';
+   font-weight: bold;
+
+}
+
+.your_everyday_learn_more_text_icon:hover {
+   color: blueviolet;
+   text-decoration: underline;
+
+}
+
+.your_everyday_learn_more_text_icon svg:hover {
+   fill: currentColor;
+}
+
+.your_everyday_learn_more_text_icon {
+   margin-left: 5px;
+}
+
+/* section trusted by 50k */
+
+.section_trusted {
+   height: 90.81px;
+   margin-bottom: 7%;
+
+}
+
+.trusted_text p {
+   height: 38px;
+   font-size: 22px;
+   font-family: 'Inter', Arial, Helvetica, sans-serif;
+   letter-spacing: 0.2px;
+   color: #1F1F1F;
+}
+
+.partners_trusted {
+   margin-top: 5px;
+   height: 40.81px;
+   letter-spacing: 0.2px;
+
+
+}
+.partners_trusted_in a svg:hover {
+   transform: scale(1.1);
+   box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+   transition: .2s ease-in-out;
+}
+
+

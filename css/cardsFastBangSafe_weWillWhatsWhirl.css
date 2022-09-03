@@ -1,0 +1,182 @@
+/* section cards_fast_bang_safe*/
+
+.section_cards_fast_bang_safe {
+   margin-bottom: 7%;
+}
+
+.section_cards_fast_bang_safe .col:hover {
+   transform: rotate(360deg);
+   transition: .5s ease-in-out;
+   box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+}
+
+.fast_bang_safe_row {
+   gap: 4%;
+
+}
+
+.fast {
+   background: #FAEA73;
+
+}
+
+.fast_bang_safe {
+   padding-top: 1.5%;
+   padding-bottom: 1.5%;
+}
+
+.fast_bang_safe svg {
+   height: 55px;
+   margin-left: 7%;
+   margin-right: 75.49%;
+}
+
+.fast_bang_safe p {
+   font-family: 'Fraunces';
+   font-size: 25px;
+   font-weight: 400;
+   line-height: 31px;
+   text-align: left;
+   letter-spacing: 0.20000000298023224px;
+   height: 32px;
+   width: 250px;
+   margin-left: 8%;
+   top: 85px;
+}
+
+.ut_enim p {
+   height: 72px;
+   width: 281px;
+   top: 125px;
+   text-align: left;
+   margin-left: 8%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 24px;
+   letter-spacing: 0.2px;
+   color: #1F1F1F;
+}
+
+.bang {
+   background: #CCEFF6;
+
+}
+
+.safe {
+   background: #F7CEDC;
+}
+
+/* section with accordion */
+
+.section_we_will {
+   background-color: #F7F9FA;
+   padding-top: 6%;
+   padding-bottom: 2%;
+   margin-bottom: 8%;
+   border-bottom: 4px solid #C2CDD8;
+}
+
+.we_will_text {
+   font-family: 'Fraunces';
+   font-size: 39px;
+   line-height: 40px;
+   letter-spacing: 0.5px;
+}
+
+.accordion {
+   height: 300px;
+   width: 460px;
+   --bs-accordion-bg: ;
+   margin-top: 5%;
+}
+
+.accordion-button:not(.collapsed) {
+   background-color: #F7F9FA;
+}
+
+.accord_first_button {
+   border-top: .5px solid;
+   border-color: #dee2e6;
+}
+
+.accordion-button {
+   background-color: #F7F9FA;
+   font-family: 'Fraunces';
+
+}
+
+.accord_last_button {
+   border-bottom: 1px solid;
+   border-color: #dee2e6;
+}
+
+.accordion-button svg {
+   margin-right: 10px;
+}
+
+.we_will_img {
+   margin-top: -50px;
+}
+
+/* section Whats Whirl */
+
+.section_whats_whirl {
+   margin-bottom: 7%;
+}
+
+.whirl_about {
+   font-family: 'Fraunces';
+   font-size: 35px;
+   font-weight: 400;
+   line-height: 40px;
+   letter-spacing: 0.20000000298023224px;
+   text-align: left;
+   height: 51px;
+   width: 283px;
+}
+
+.under_head_text {
+   height: 96px;
+   width: 215px;
+   font-family: 'Inter';
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 22px;
+   letter-spacing: 0.1px;
+   text-align: left;
+   color: #1F1F1F;
+
+}
+
+.head_text .under_head_text {
+   line-height: 90px;
+}
+
+.all_get_safe {
+   margin-left: 1%;
+}
+
+.all_get_safe svg {
+   margin-top: -5px;
+}
+
+.empty_place {
+   height: 53px;
+}
+
+.head_text {
+   font-family: 'Fraunces';
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 31px;
+   letter-spacing: 0.20000000298023224px;
+   text-align: left;
+   height: 20px;
+   width: 194px;
+   left: 0px;
+   top: 62.609375px;
+   border-radius: nullpx;
+   color: #1F1F1F;
+}
